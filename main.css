@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    margin-left: 30px;
 }
 
 .Calculator{
     display: grid;
-    padding: 10px;
+    padding: 15px;
     grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: 50px 50px 50px 50px;
     max-width: 400px;
@@ -22,6 +27,9 @@ button{
     border-radius: 10px;
 }
 
+button:hover{
+    font-size: 125%;
+}
 
 .answer{
     grid-column: span 3;

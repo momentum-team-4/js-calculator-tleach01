@@ -1,7 +1,5 @@
-let display= document.querySelector('.answer')
 
 let clear = document.querySelector('.clr')
-
 clear.addEventListener("click", function(){
     display.innerText = ""
 })
@@ -55,16 +53,36 @@ number9.addEventListener("click", function (){
     display.innerText += "9"
 })
 
+let number0 = document.querySelector('.num0')
+number0.addEventListener("click", function (){
+    display.innerText += "0"
+})
+
+let display= document.querySelector('.answer')
+
+
 let divide = document.querySelector('.operationdiv')
 divide.addEventListener("click", function (){
     display.innerText += "/"
 })
 
+let multiply = document.querySelector('.operationmult')
+multiply.addEventListener("click", function (){
+    display.innerText += "*"
+})
+
+let subtract = document.querySelector('.operationsub')
+subtract.addEventListener("click", function (){
+    display.innerText += "-"
+})
+
+let addition = document.querySelector('.operationadd')
+addition.addEventListener("click", function (){
+    display.innerText += "+"
+})
 
 
-let operationequals = document.querySelector('.operationequals')
-operationequals.addEventListener("click", function (){
-    let prop = display.innerText
-    let answer = eval(prop)
-    display.innerText = answer
+let decimal = document.querySelector('.operationdec')
+decimal.addEventListener("click", function (){
+    display.innerText += "."
 })
