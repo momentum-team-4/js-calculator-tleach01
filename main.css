@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Calculator{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    max-width: 400px;
+    margin-left: 10px;
+}
+
+
+button{
+    display: grid;
+    padding: 15px;
+    background-color: rgb(89, 139, 197);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.answer{
+    grid-column: span 3;
+}
