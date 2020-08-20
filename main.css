@@ -7,6 +7,7 @@
 
 h1{
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .Calculator{
@@ -16,14 +17,16 @@ h1{
     grid-template-rows: 50px 50px 50px 50px;
     max-width: 400px;
     margin-left: 10px;
-    border: teal;
+    border: solid 5px rgb(19, 147, 170);
+    border-style: dotted;
+    
 }
 
 
 button{
     display: grid;
     padding: 18px;
-    background-color: rgb(49, 112, 184);
+    background-color: rgb(37, 143, 185);
     color: white;
     border-radius: 10px;
 }
