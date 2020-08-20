@@ -94,5 +94,5 @@ equals.addEventListener("click", function(){
     display.textContent = answer
 })
 
-
+// use textContent & (eval(prop))
 
